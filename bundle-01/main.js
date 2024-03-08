@@ -14,7 +14,11 @@
 for (let i = 0; i > 5; i++) {
     console.log(i);
 }
-
+/*
+1. Stampa in console i per n volte
+2. No, nessun errore di sintassi
+3. Sì, il ciclo for non viene mai eseguito perchè i è inizializzata a 0 ma la condizione per eseguire il ciclo è finchè i è maggiore di 5, che non è vera già subito
+*/
 
 // ESERCIZIO 2
 function addIfEven(num) {
