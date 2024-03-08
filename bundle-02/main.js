@@ -42,7 +42,6 @@ printColorsNumber();
 3. No
 */
 
-
 // ESERCIZIO 3
 function addNumbers() {
     const userNumber = prompt('Inserisci un numero');
@@ -52,6 +51,11 @@ function addNumbers() {
 }
 addNumbers();
 
+/*
+1. La funzione chiede con un prompt all'utente di inserire un numero e poi somma il numero a 12 e mostra in console il risultato finale
+2. No
+3. Sì, il prompt è una stringa e va trasformato con parseInt(prompt('Inserisci un numero')) in un numero per poter effettuare una somma
+*/
 
 // ESERCIZIO 4
 function checkAccess() {
