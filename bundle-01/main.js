@@ -9,10 +9,9 @@
 
 *******************************************************************************/
 
-
 // ESERCIZIO 1
 for (let i = 0; i > 5; i++) {
-    console.log(i);
+  console.log(i);
 }
 /*
 1. Stampa in console i per n volte
@@ -22,12 +21,17 @@ for (let i = 0; i > 5; i++) {
 
 // ESERCIZIO 2
 function addIfEven(num) {
-    if (num % 2 = 0) {
-        return num + 5;
-    }
-    return num;
+  if (num % 2 = 0) {
+    return num + 5;
+  }
+  return num;
 }
 
+/*
+1. Controlla se un numero è pari e, se è pari, lo somma a 5
+2. Sì, dentro l'if viene fatta un'assegnazione con "=", mentre andrebbe verificata una condizione con "==="
+3. No
+*/
 
 // ESERCIZIO 3
 function loopToFive() {
@@ -35,7 +39,6 @@ function loopToFive() {
         console.log(i);
     }
 }
-
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
 function displayEvenNumbers() {
