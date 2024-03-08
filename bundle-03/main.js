@@ -84,3 +84,9 @@ console.log(dieselCars);
 
 console.log('Tutte le altre auto');
 console.log(otherCars);
+
+/*
+1. TBD
+2. Sì, a) manca una virgola prima del penultimo elemento dell'array di oggetti, b) in gasolineCars, l'arrow function è scritta sbagliata ">=" invece di "=>" c) in dieselCars, non prende alcuna auto perchè occorre scrivere prima return e d) anche mettendo return non prende tutte le auto perchè diesel è scritto diversamente negli oggetti e) anche gasolineCars non prende tutte le auto perchè benzina è scritto diversamente negli oggetti
+3. Sì, la condizione in otherCars dovrebbe essere && invece di ||
+*/
