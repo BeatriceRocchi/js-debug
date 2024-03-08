@@ -59,3 +59,9 @@ function displayEvenNumbers() {
     }
 }
 displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+
+/*
+// 1. La funzione controlla se i numeri inseriti in un array sono pari e se si li pusha in un nuovo array di soli numeri pari
+// 2. Sì, a) dentro il for non serve ";" dopo "i++", b) dentro l'if viene fatta un'assegnazione con "=", mentre andrebbe verificata una condizione con "===", c) dopo la condizione dell'if, fuori dalle parentesi, non serve ";"
+// 3. Sì, a) il ciclo for deve continuare fino a che i < numbers.length, b) nell'if occorre controllare se l'elemento[i] dell'array number è pari, non se l'array è pari, c) se il numero è pari, occorre pushare non l'indice ma l'elemento a indice i, d) il return evenNumbers va fatto fuori dal ciclo for
+*/
