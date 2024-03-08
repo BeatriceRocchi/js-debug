@@ -31,7 +31,7 @@ function addIfEven(num) {
 /*
 1. Controlla se un numero è pari e, se è pari, lo somma a 5
 2. Sì, dentro l'if viene fatta un'assegnazione con "=", mentre andrebbe verificata una condizione con "==="
-3. No
+3. Sì, la funzione non viene richiamta
 */
 
 // ESERCIZIO 3
@@ -44,7 +44,7 @@ function loopToFive() {
 /*
 1. La funzione stampa in console i per 5 volte (da 0 a 4)
 2. Sì, dentro il for occorre separarare l'inizializzazione di i, la condizione e l'incremento con ";" azichè ","
-3. Sì, concettualmente sulla base del nome dato alla funzione sembra che l'obiettivo sia fare un ciclo for fino a 5, quindi andrebbe messa come condizione i <= 5 oppure i < 6
+3. Sì, a) concettualmente sulla base del nome dato alla funzione sembra che l'obiettivo sia fare un ciclo for fino a 5, quindi andrebbe messa come condizione i <= 5 oppure i < 6 b) la funzione non viene richiamta
 */
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
