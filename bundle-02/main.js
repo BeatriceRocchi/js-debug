@@ -24,9 +24,9 @@ function checkAge() {
 checkAge();
 
 /*
-// 1. La funzione controlla se l'età è maggiore o minore di 18 anni e restituisce un messaggio diverso
-// 2. Sì, message non è una constante perchè assume valore diversi nel codice. Andrebbe inizializzata con let message = ''
-// 3. Sì, per mostrare il messaggio andrebbe restituito message con un return, e quindi tale variabile va inizializzata a livello globale, non nello scope della funzione. Per rendere più riutilizzabile la funzione, sarebbe anche più logico passare myAge come parametro alla funzione e definirlo quindi esternamente alla funzione.
+1. La funzione controlla se l'età è maggiore o minore di 18 anni e restituisce un messaggio diverso
+2. Sì, message non è una constante perchè assume valore diversi nel codice. Andrebbe inizializzata con let message = ''
+3. Sì, per mostrare il messaggio andrebbe restituito message con un return, e quindi tale variabile va inizializzata a livello globale, non nello scope della funzione. Per rendere più riutilizzabile la funzione, sarebbe anche più logico passare myAge come parametro alla funzione e definirlo quindi esternamente alla funzione.
 */
 
 // ESERCIZIO 2
@@ -35,6 +35,12 @@ function printColorsNumber() {
     console.log(`Nella mia palette ci sono ${colors.lenght} colori!`);
 }
 printColorsNumber();
+
+/*
+1. La funzione stampa in console quanti elementi (colori) sono presenti in un array
+2. Sì, è stato scritto "lenght" al posto di "length"
+3. No
+*/
 
 
 // ESERCIZIO 3
