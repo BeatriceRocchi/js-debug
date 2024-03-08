@@ -23,6 +23,12 @@ function checkAge() {
 }
 checkAge();
 
+/*
+// 1. La funzione controlla se l'età è maggiore o minore di 18 anni e restituisce un messaggio diverso
+// 2. Sì, message non è una constante perchè assume valore diversi nel codice. Andrebbe inizializzata con let message = ''
+// 3. Sì, per mostrare il messaggio andrebbe restituito message con un return, e quindi tale variabile va inizializzata a livello globale, non nello scope della funzione. Per rendere più riutilizzabile la funzione, sarebbe anche più logico passare myAge come parametro alla funzione e definirlo quindi esternamente alla funzione.
+*/
+
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
