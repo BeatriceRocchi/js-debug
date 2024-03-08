@@ -76,6 +76,11 @@ function checkAccess() {
 }
 checkAccess();
 
+/*
+1. Dato un elenco di indirizzi a cui l'accesso è consentito, la funzione controlla se l'indirizzo inserito dall'utente tramite prompt è incluso e quindi ha ccesso o meno
+2. Sì, sulla base di come sono stati assegnati i valori a grantAccess, nel secondo if occorre controllare se grantAccess è uguale a 'true', non solo a true senza virgolette.
+3. No
+*/
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 function checkAccessImproved() {
